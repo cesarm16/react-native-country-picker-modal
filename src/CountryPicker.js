@@ -20,7 +20,7 @@ import {
 
 import Fuse from 'fuse.js'
 
-import cca2List from '../data/cca2'
+import cca2List from '../data/cca2.json'
 import { getHeightPercent } from './ratio'
 import CloseButton from './CloseButton'
 import countryPickerStyles from './CountryPicker.style'
