@@ -43,10 +43,10 @@ const setCountries = flagType => {
   }
 
   if (isEmojiable) {
-    countries = require('../data/countries-emoji')
+    countries = require('../data/countries-emoji.json')
     Emoji = require('./emoji').default
   } else {
-    countries = require('../data/countries')
+    countries = require('../data/countries.json')
     Emoji = <View />
   }
 }
